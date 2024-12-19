@@ -1,0 +1,198 @@
+.carousel-inner .item {
+/*   max-height: 680px; */
+  height: 450px;
+  /* background: url('https://dl.dropboxusercontent.com/u/4357218/Assets/Images/Codepen/Bootstrap%20Carousel/slide-1.jpg') no-repeat center top; */
+  background-size: cover;
+}
+
+/* .carousel-inner .item:nth-child(2) {
+  background-image: url('https://dl.dropboxusercontent.com/u/4357218/Assets/Images/Codepen/Bootstrap%20Carousel/slide-2.jpg');
+} */
+
+/* .carousel-inner .item:nth-child(3) {
+  background-image: url('https://dl.dropboxusercontent.com/u/4357218/Assets/Images/Codepen/Bootstrap%20Carousel/slide-3.jpg');
+} */
+
+/* .carousel-inner .item:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} */
+
+/* .carousel-control {
+  width: 10%;
+} */
+
+/* .carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+} */
+
+/* .carousel-control .fa.fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+} */
+
+@media screen and (min-width: 768px) {
+  .carousel-control .fa {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .fa-chevron-left {
+    margin-left: -15px;
+  }
+  img {
+    /* display: block; */
+    /* height: auto; */
+    /* left: 100%; */
+    /* min-height: 100%; */
+    /* min-width: 100%; */
+    object-fit: contain;
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translate(-50%, 0%); */
+    /* width: auto; */
+  }
+}
+
+
+/**
+ * Slider caption
+ */
+
+.right.carousel-control,
+.left.carousel-control {
+  display: none;
+}
+
+.carousel-caption {
+  bottom: 36%;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+  font-size: 60px; font-weight: bolder; position: absolute; top: -140px; color: #000000; right: 210px;
+}
+
+.carousel-caption p {
+  /* font-family: "Oswald", sans-serif; */
+  /* font-weight: 300; */
+  /* font-size: 20px; */
+  margin-bottom: 50px;
+
+  position: absolute; right: 415px; border-radius: none; background-color: #000000; line-height: 50px; width: 190px;
+}
+.carousel-caption p a { font-weight: bolder; font-size: 14px; color: #ffffff; text-decoration: none; }
+
+.carousel-caption h3 {
+  color: #000000; letter-spacing: 10px; position: absolute; top: -200px; right: 400px; z-index: 2;
+}
+
+.carousel-caption img.one {
+  position: absolute; top: -220px; left: 580px; height: 450px; z-index: 1;
+}
+.carousel-caption img.two {
+  position: absolute; top: -220px; left: 540px; height: 450px; z-index: 1;
+}
+.carousel-caption img.three {
+  position: absolute; top: -220px; left: 660px; height: 450px; z-index: 1;
+}
+
+
+.carousel-caption span {
+  height: 320px; width: 320px; border-radius: 160px; position: absolute; bottom: -35px; left: 625px;
+}
+.carousel-caption span.red {
+  background-color: #c2b9b5;
+}
+.carousel-caption span.blue {
+  background-color: #fdec00;
+}
+.carousel-caption span.pink {
+  background-color: #b1c2cc;
+}
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+  }
+}
+
+/* .btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+} */
+
+/* .btn-transparent:hover {
+  background-color: #fff;
+} */
+
+/* .btn-rounded {
+  border-radius: 70px;
+} */
+
+/* .btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+} */
+
+
+/**
+ * Change animation duration
+ */
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+.carousel-indicators { position: absolute; left: 317px; width: 40%; }
+.carousel-indicators li {
+  margin: 0 10px;
+  /* background-color: #fad3d3; */
+  border: none;
+  /* width: 20px; */
+  color: #696969;
+  /* padding: 0 20px; */
+  font-weight: bold;
+  height: 18px;
+  width: auto;
+}
+
+.carousel-indicators .active { 
+  margin: 0 10px;
+  /* background-color: #f76b6a; */
+  border: none;
+  /* height: 15px; */
+  /* width: 30px; */
+  color: #000000;
+  font-weight: bold;
+  background: none;
+  height: 18px;
+  width: auto;
+}
+
+/* .blogs img {
+  width: 100%;
+} */
+
+
+@media (max-width: 480px) {
+  .carousel-indicators { width: 50%; left: 205px; }
+}

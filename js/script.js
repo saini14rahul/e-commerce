@@ -1,0 +1,30 @@
+$(function() {
+  $('.tabs-nav a').click(function() {
+
+    // Check for active
+    $('.tabs-nav li').removeClass('active');
+    $(this).parent().addClass('active');
+
+    // Display active tab
+    let currentTab = $(this).attr('href');
+    $('.tabs-content div').hide();
+    $(currentTab).show();
+
+    return false;
+  });
+
+  $('.tabs-navbar a').click(function() {
+
+    // Check for active
+    $('.tabs-navbar li').removeClass('active');
+    $(this).parent().addClass('active');
+
+    // Display active tab
+    let currentTab = $(this).attr('href');
+    $('.tabshim-content div').hide();
+    $(currentTab).show();
+
+    return false;
+  });
+
+});

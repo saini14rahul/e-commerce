@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>april</title>
+    <link href="fonts/nunito.css" type="text/css" rel="stylesheet">
+
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/animate.min.css'>	
+    <link rel="stylesheet" href="css/style-slider.css">
+
+    <!-- <link href="icons/css/all.css" type="text/css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style_logo.css" type="text/css" rel="stylesheet">
+   <link href="css/style.menu.css" type="text/css" rel="stylesheet">
+   <link href="css/style.menubar.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+  
+
+    <!-- HEADER START HERE -->
+    <div class="mainwrapper carousel slide" id="img-carousel" data-ride="carousel">
+            <div class="headerbox">
+            
+                <h1><a href="#"><img src="images/logo.png"></a></h1>
+
+                <nav class="navbar" >
+                
+                    
+                            <label for="drop" class="toggle">
+                                <div class="menu-toggle" id="mobile-menu">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                              </div></label>
+                            <input type="checkbox" id="drop" />
+                                <ul class="menu">
+                                    <li><a href="#">HOME</a></li>
+                                    <li>
+                                        <!-- First Tier Drop Down -->
+                                        <label for="drop-1" class="toggle">SHOP +</label>
+                                        <a href="#">SHOP</a>
+                                        <input type="checkbox" id="drop-1"/>
+                                        <ul>
+                                            <li><a href="#">Themes and stuff</a></li>
+                                            <li><a href="#">Plugins</a></li>
+                                            <li><a href="#">Tutorials</a></li>
+                                        </ul> 
+                    
+                                    </li>
+                                    <li>
+                    
+                                    <!-- First Tier Drop Down -->
+                                    <label for="drop-2" class="toggle">BLOG +</label>
+                                    <a href="#">BLOG</a>
+                                    <input type="checkbox" id="drop-2"/>
+                                    <ul>
+                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="#">Links</a></li>
+                                        <li>
+                                           
+                                        <!-- Second Tier Drop Down -->        
+                                        <label for="drop-3" class="toggle">Tutorials +</label>
+                                        <a href="#">Tutorials</a>         
+                                        <input type="checkbox" id="drop-3"/>
+                    
+                                        <ul>
+                                            <li><a href="#">HTML/CSS</a></li>
+                                            <li><a href="#">jQuery</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                        </li>
+                                    </ul>
+                                    </li>
+                                    <li><a href="#">PAGES</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                    <!-- <li><a href="#">Contact</a></li> -->
+                                    <!-- <li><a href="#">About</a></li> -->
+                                </ul>
+                            </nav>
+
+                <ul class="cartbox">
+                    <li><a href="#" class="fa fa-cart-plus"></a>
+                        </li>
+                    
+                    <!-- <li><a href="#" class="fa fa-bars"></a>
+                    </li> -->
+                </ul>
+                
+            </div>
+            
+            <div class="mainheader carousel slide" >
+                  <!-- SLIDER START HERE -->
+    
+        <!-- Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#img-carousel" data-slide-to="0" class="active">Men</li>
+          <li data-target="#img-carousel" data-slide-to="1">Women</li>
+          <li data-target="#img-carousel" data-slide-to="2">kids</li>
+        </ol>
+        <!-- Wrapper for slides-->
+        <div role="listbox" class="carousel-inner">
+      
+          <div class="item active">
+            <div class="carousel-caption">
+                <h3 class="animated fadeInDown">#APRILSTORE</h3>
+              <h2 class="animated fadeInDown">Caption Animation</h2>
+              <p class="animated fadeInUp"><a href="#">Learn More</a></p>
+              <img class="one animated fadeInRight" src="images/header_men.png">
+              <span class="red animated fadeInRight"></span>
+            </div>
+          </div>
+      
+          <div class="item">
+            <div class="carousel-caption">
+                <h3 class="animated bounceInDown">#APRILSTORE</h3>
+              <h2 class="animated bounceInDown">Bootstrap Slider</h2>
+              <p class="animated bounceInUp"><a href="#">Get Started</a></p>
+              <img class="two animated fadeInRight" src="images/header_2.png">
+              <span class="blue animated fadeInRight"></span> 
+            </div>
+          </div>
+      
+          <div class="item">
+            <div class="carousel-caption">
+                <h3 class="animated fadeInDown">#APRILSTORE</h3>
+              <h2 class="animated fadeInDown">Simplify Everything</h2>
+              <p class="animated fadeInRight"><a href="#">Download Now!</a></p>
+              <img class="three animated fadeInRight" src="images/header_child.png">
+              <span class="pink animated fadeInRight"></span> 
+            </div>
+          </div>
+      
+        </div>
+
+        <!-- <div class="mininavbar">
+            <ul>
+                <li><a href="#">men</a></li>
+                <li><a href="#">women</a></li>
+                <li><a href="#">kids</a></li>
+            </ul>
+        </div> -->
+      
+        <!-- Controls--><a href="#img-carousel" role="button" data-slide="prev" class="left carousel-control"><i aria-hidden="true" class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a>
+        <a href="#img-carousel" role="button" data-slide="next" class="right carousel-control"><i aria-hidden="true" class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a>
+     
+        <!-- SLIDER END HERE -->
+
+                <!-- <h3>#APRILSTORE</h3>
+                <h2>Simplify<br/>
+                    Everything.</h2>
+                <a href="#">PURCHASE</a>     -->
+                </div>
+        
+                    
+    </div>
+    <!-- HEADER END HERE -->
+
+    <!-- FORHER START HERE -->
+    <div class="forherwrapper">
+        <div class="menubar tabs-nav">
+            <ul>
+               <li class="active"><a href="#tab1">ALL</a></li>
+               <li><a href="#tab2">BLAZERS<img src="images/jersey-blazer.png"></a></li>
+               <li><a href="#tab3">JACKETS<img src="images/jacket.png"></a></li>
+               <li><a href="#tab4">DRESSES<img src="images/dresses.png"></a></li>
+               <li><a href="#tab5">TROUSERS<img src="images/trousers.png"></a></li>
+              <li><a href="#tab6">ACCESSORIES<img src="images/acccessories.png"></a></li>
+            </ul>
+        </div>
+        <div class="tabs-content">
+           
+        <div class="forherwapper" id="tab1"> 
+            <div class="forher">
+                <h2>#forher</h2>
+                    <img src="images/forher.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><img src="images/forher-list-1.png">
+                        <h2>Funnel collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forher-list-2.png">
+                        <h2>Car Shake T-shirt</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forher-list-3.png">
+                        <h2>Lace-up trainers with heel detail</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-4.png">
+                        <h2>Nylon Vest With Swestshirt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-5.png">
+                        <h2>Embossed Pocket Backpack</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-6.png">
+                        <h2>Mini Back Pack</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+        </div>
+        </div>
+
+             <div class="forherwapper" id="tab2">
+                  <div class="forher">
+                <h2>#forher</h2>
+                    <img src="images/forher.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><img src="images/forher-list-6.png">
+                        <h2>Mini Back Pack</h2>
+                            <span>$59.00</span></a></li>
+                   <li><a href="#"><img src="images/forher-list-5.png">
+                            <h2>Embossed Pocket Backpack</h2>
+                                <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forher-list-4.png">
+                        <h2>Nylon Vest With Swestshirt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-3.png">
+                                <h2>Lace-up trainers with heel detail</h2>
+                                      <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-2.png">
+                                <h2>Car Shake T-shirt</h2>
+                                <span>$59.00</span></a></li>
+                   <li class="m-b-0"><a href="#"><img src="images/forher-list-1.png">
+                                    <h2>Funnel collar puffer Jacket</h2>
+                                    <span>$59.00</span></a></li>
+                    
+                </ul>
+        </div>
+             </div>
+            <div class="forherwapper" id="tab3">
+                <div class="forher">
+                    <h2>#forher</h2>
+                        <img src="images/forher.png">
+                        <a href="#">SHOP NOW</a>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#"><img src="images/forher-list-1.png">
+                            <h2>Funnel collar puffer Jacket</h2>
+                            <span>$59.00</span></a></li>
+                        <li><a href="#"><img src="images/forher-list-2.png">
+                            <h2>Car Shake T-shirt</h2>
+                            <span>$59.00</span></a></li>
+                        <li><a href="#"><img src="images/forher-list-3.png">
+                            <h2>Lace-up trainers with heel detail</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-4.png">
+                            <h2>Nylon Vest With Swestshirt Hood</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-5.png">
+                            <h2>Embossed Pocket Backpack</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-6.png">
+                            <h2>Mini Back Pack</h2>
+                                <span>$59.00</span></a></li>
+                    </ul>
+            </div> 
+            </div>
+            <div class="forherwapper" id="tab4">
+                <div class="forher">
+                <h2>#forher</h2>
+                    <img src="images/forher.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><img src="images/forher-list-6.png">
+                        <h2>Mini Back Pack</h2>
+                            <span>$59.00</span></a></li>
+                   <li><a href="#"><img src="images/forher-list-5.png">
+                            <h2>Embossed Pocket Backpack</h2>
+                                <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forher-list-4.png">
+                        <h2>Nylon Vest With Swestshirt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-3.png">
+                        <h2>Lace-up trainers with heel detail</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forher-list-2.png">
+                                <h2>Car Shake T-shirt</h2>
+                                <span>$59.00</span></a></li>
+                   <li class="m-b-0"><a href="#"><img src="images/forher-list-1.png">
+                                    <h2>Funnel collar puffer Jacket</h2>
+                                    <span>$59.00</span></a></li>
+                    
+                </ul>
+        </div>
+    </div>
+            <div class="forherwapper" id="tab5">
+                <div class="forher">
+                    <h2>#forher</h2>
+                        <img src="images/forher.png">
+                        <a href="#">SHOP NOW</a>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#"><img src="images/forher-list-1.png">
+                            <h2>Funnel collar puffer Jacket</h2>
+                            <span>$59.00</span></a></li>
+                        <li><a href="#"><img src="images/forher-list-2.png">
+                            <h2>Car Shake T-shirt</h2>
+                            <span>$59.00</span></a></li>
+                        <li><a href="#"><img src="images/forher-list-3.png">
+                            <h2>Lace-up trainers with heel detail</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-4.png">
+                            <h2>Nylon Vest With Swestshirt Hood</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-5.png">
+                            <h2>Embossed Pocket Backpack</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-6.png">
+                            <h2>Mini Back Pack</h2>
+                                <span>$59.00</span></a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="forherwapper" id="tab6">
+                <div class="forher">
+                    <h2>#forher</h2>
+                        <img src="images/forher.png">
+                        <a href="#">SHOP NOW</a>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#"><img src="images/forher-list-6.png">
+                            <h2>Mini Back Pack</h2>
+                                <span>$59.00</span></a></li>
+                       <li><a href="#"><img src="images/forher-list-5.png">
+                                <h2>Embossed Pocket Backpack</h2>
+                                    <span>$59.00</span></a></li>
+                        <li><a href="#"><img src="images/forher-list-4.png">
+                            <h2>Nylon Vest With Swestshirt Hood</h2>
+                                <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-3.png">
+                                    <h2>Lace-up trainers with heel detail</h2>
+                                        <span>$59.00</span></a></li>
+                        <li class="m-b-0"><a href="#"><img src="images/forher-list-2.png">
+                                    <h2>Car Shake T-shirt</h2>
+                                    <span>$59.00</span></a></li>
+                       <li class="m-b-0"><a href="#"><img src="images/forher-list-1.png">
+                                        <h2>Funnel collar puffer Jacket</h2>
+                                        <span>$59.00</span></a></li>
+                        
+                    </ul>
+            </div>
+            </div>
+    </div>
+           
+        
+
+    </div>
+    <!-- FORHER END HERE-->
+
+    <!-- BANNER START HERE -->
+    <div class="bannerwrapper">
+        <div class="bannerwapper">
+            <div class="bannerbox">
+            <h3>#newarrivals</h3>
+            <p>COMMERCE FASHION SITE</p>
+            <a href="#">shop now</a>
+            </div>
+            <div class="bannerposter">
+            <img src="images/newarrivals.png">
+            </div>
+        </div>
+    </div>
+    <!-- BANNER END HERE -->
+
+    <!-- FORHIM START HERE -->
+    <div class="forhimwrapper">
+        <div class="menubarhim tabs-navbar">
+            <ul>
+               <li class="active"><a href="#tab11">ALL</a></li>
+               <li><a href="#tab22">BLAZERS<img src="images/jersey-blazer.png"></a></li>
+               <li><a href="#tab33">JACKETS<img src="images/jacket.png"></a></li>
+               <li><a href="#tab44">DRESSES<img src="images/dresses.png"></a></li>
+               <li><a href="#tab55">TROUSERS<img src="images/trousers.png"></a></li>
+              <li><a href="#tab66">ACCESSORIES<img src="images/acccessories.png"></a></li>
+            </ul>
+        </div>
+        <div class="tabshim-content">
+        <div class="forhimwapper" id="tab11">
+            <div class="listhim">
+                <ul>
+                    <li><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="forhimwapper" id="tab22">
+            <div class="listhim">
+                <ul>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                        <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="forhimwapper" id="tab33">
+            <div class="listhim">
+                <ul>
+                    <li><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                            <span>$59.00</span></a></li>        
+                    
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="forhimwapper" id="tab44">
+            <div class="listhim">
+                <ul>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="forhimwapper" id="tab55">
+            <div class="listhim">
+                <ul>
+                    <li><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                        <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="forhimwapper" id="tab66">
+            <div class="listhim">
+                <ul>
+                    <li><a href="#"><img src="images/forhim_list_2.png">
+                        <h2>Denim shirt with pocket</h2>
+                        <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_3.png">
+                        <h2>Men’s Perforated Sneakers</h2>
+                            <span>$59.00</span></a></li>
+                    <li><a href="#"><img src="images/forhim_list_4.png">
+                        <h2>Nylon Vest With Swestshirtttt Hood</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_5.png">
+                        <h2>Black Metellic Watch</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_6.png">
+                        <h2>Sports Shoes</h2>
+                            <span>$59.00</span></a></li>
+                    <li class="m-b-0"><a href="#"><img src="images/forhim_list_1.png">
+                        <h2>collar puffer Jacket</h2>
+                            <span>$59.00</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="forhim">
+                <h2>#forhim</h2>
+                    <img src="images/forhim.png">
+                    <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- FORHIM END HERE -->
+
+    <!-- SALE BANNNER START HERE -->
+    <div class="salewrapper">
+        <div class="leftbanner">
+            <img src="images/sale_left_banner.png">
+        </div>
+        <div class="rightbanner">
+            <img src="images/sale_right_banner.png">
+        </div>
+        <div class=" salebox">
+            <h2>SALE
+                <span>#APRILSTORE</span>
+            </h2>
+        </div>
+    </div>
+    <!-- SALE BANNNER END HERE -->
+
+    <!-- CAMPANIES LOGO START HERE -->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="images/disney.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/youtube.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/gitlab.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/spotify.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/A.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/amazon.png" alt="" />
+            </div>
+
+            <div class="slide">
+                <img src="images/disney.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/youtube.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/gitlab.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/spotify.png" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/A.png" alt="" />
+            </div>
+             <div class="slide">
+                <img src="images/amazon.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- CAMPANIES LOGO END HERE -->
+
+    <!-- FOOTER START HERE -->
+    <div class="footerwrapper">
+        <div class="footerwapper">
+            <div class="footerlogo">
+                <a href="#"><img src="images/logo.png"></a>
+                <p>COPY RIGHT  2017A-PRIL
+                    <span>ALL RIGHT RESERVED</span></p>
+            </div>
+     
+            <div class="about_april">
+                <h2>About April</h2>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Offices</a></li>
+                    <li><a href="#">work with us</a></li>
+                    <li><a href="#">Our policies</a></li>
+                    <li><a href="#">Affinity card</a></li>
+                </ul>
+            </div>
+            <div class="shopguide">
+                <h2>Shopguide</h2>
+                <ul>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Gift Card</a></li>
+                    <li><a href="#">Guesr purchase</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="newslatter">
+                <h2>Newslatter</h2>
+                <h3>SUBSCRIBE TO OUR NEWALATTER</h3>
+                <div class="email">
+                    <input type="text" placeholder="Enter your email" />
+                </div>
+                <!-- <p>Enter your email</p> -->
+                <ul>
+                    <li><a href="#" class="fa icon-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="fa icon-twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="fa icon-youtube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" class="fa icon-vimeo"><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END HERE-->
+
+    <!-- JS START HERE FOR SLIDER -->
+    <script src='js/jquery-2.2.4.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script  src="js/script-slider.js"></script>
+    <!-- JS START HERE FOR SLIDER -->
+    
+    <!-- menubar js start from here -->
+    <script src="js/script.menubar.js"></script>
+    <script src="js/jquery.min.menubar.js"></script>
+<!-- <script src="js/bootstrap.min.menu.js"></script> -->
+
+<!-- menubar js start from here -->
+   
+
+    <script type="text/javascript">
+        $(function() {
+  $('.tabs-nav a').click(function() {
+
+    // Check for active
+    $('.tabs-nav li').removeClass('active');
+    $(this).parent().addClass('active');
+
+    // Display active tab
+    let currentTab = $(this).attr('href');
+    $('.tabs-content .forherwapper').hide();
+    $(currentTab).show();
+
+    return false;
+   
+  });
+});
+$(function() {
+  $('.tabs-navbar a').click(function() {
+
+// Check for active
+$('.tabs-navbar li').removeClass('active');
+
+$(this).parent().addClass('active');
+
+// Display active tab
+let currentTab = $(this).attr('href');
+
+$('.tabshim-content .forhimwapper').hide();
+
+$(currentTab).show();
+
+return false;
+
+});
+
+});
+    </script>
+    <!-- TABS END HERE -->
+
+    <!-- slider start here -->
+    
+    <!-- slider end here -->
+
+
+
+
+</body>
+</html>
